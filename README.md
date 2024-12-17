@@ -1,6 +1,6 @@
 # ConnectSphere
 
-ConnectSphere is a backend application built using Spring Boot, Java, and MySQL. It provides RESTful APIs for social networking features such as creating accounts, posting content, interacting with users, and sending messages. It leverages JWT for secure authentication and offers a robust and scalable backend solution.
+ConnectSphere is a backend application built using Spring Boot, Java, and MySQL. It provides RESTful APIs for social networking features such as creating accounts, posting content, interacting with users. It leverages JWT for secure authentication and offers a robust and scalable backend solution.
 
 ---
 
@@ -21,7 +21,7 @@ ConnectSphere is a backend application built using Spring Boot, Java, and MySQL.
 
 - **Follow/Unfollow Users**: Manage your social network by following or unfollowing users.
 - **Search Users**: Quickly find other users with advanced search functionality.
-- **Direct Messaging**: Send and receive messages from other users.
+//- **Direct Messaging**: Send and receive messages from other users.
 
 ### Insights and Analytics
 
