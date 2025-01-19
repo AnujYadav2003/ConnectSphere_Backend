@@ -1,37 +1,3 @@
-//package com.connect.ConnectSphere.Controller;
-//
-//import com.connect.ConnectSphere.Service.MessageService;
-//import com.connect.ConnectSphere.Service.UserService;
-//import com.connect.ConnectSphere.model.Message;
-//import com.connect.ConnectSphere.model.User;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.List;
-//
-//@RestController
-//
-//public class MessageController {
-//    @Autowired
-//    private MessageService messageService;
-//    @Autowired
-//    private UserService userService;
-//    @PostMapping("/api/messages/chat/{chatId}")
-//    public Message createMessage(@RequestBody Message req, @RequestHeader("Authorization")String jwt,
-//                                 @PathVariable Long chatId) throws Exception{
-//        User user =userService.findUserByJwt(jwt);
-//        return messageService.createMessage(user,chatId,req);
-//    }
-//
-//    @GetMapping("/api/messages/chat/{chatId}")
-//    public List<Message> findChatsMessages(@RequestHeader("Authorization")String jwt,
-//                                           @PathVariable Long chatId) throws Exception{
-//        User user =userService.findUserByJwt(jwt);
-//        List<Message> messages=messageService.findChatsMessages(chatId);
-//        return messages;
-//    }
-//}
-//
 
 
 package com.connect.ConnectSphere.Controller;
