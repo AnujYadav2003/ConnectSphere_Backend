@@ -22,10 +22,6 @@ ConnectSphere is a backend application built using Spring Boot, Java, and MySQL.
 - **Follow/Unfollow Users**: Manage your social network by following or unfollowing users.
 - **Search Users**: Quickly find other users with advanced search functionality.
 
-### Insights and Analytics
-
-- **User  Profiles**: View public profiles of other users.
-- **Posts & Reels**: Access posts and reels from the network.
 
 ---
 
